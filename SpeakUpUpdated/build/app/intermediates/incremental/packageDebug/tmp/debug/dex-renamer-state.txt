@@ -1,0 +1,4 @@
+#Sun Feb 23 01:41:51 MST 2020
+base.0=/root/Desktop/speakup2/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
