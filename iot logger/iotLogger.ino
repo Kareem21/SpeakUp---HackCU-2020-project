@@ -79,7 +79,7 @@ void loop()
                 
 
                         request.path = "/incident/create";  
-                        request.body = "{\"type\":\"Racial\", \"date\": \"2020-02-23\"}";  
+                        request.body = "{\"type\":\"Racial\", \"date\": \"2020-02-23\", \"location\": \"40.007965, -105.249142\"}";  
                         http.post(request, response, headers);  
                         printResponse(response);  
                     }
@@ -104,7 +104,7 @@ void loop()
                 
 
                         request.path = "/incident/create";  
-                        request.body = "{\"type\":\"Domestic Violence\", \"date\": \"2020-02-23\"}";  
+                        request.body = "{\"type\":\"Domestic Violence\", \"date\": \"2020-02-23\", \"location\": \"40.007965, -105.249142\"}";  
                         http.post(request, response, headers);  
                         printResponse(response);  
                     }
@@ -128,7 +128,7 @@ void loop()
                 
 
                         request.path = "/incident/create";  
-                        request.body = "{\"type\":\"Bullying\", \"date\": \"2020-02-23\"}";  
+                        request.body = "{\"type\":\"Bullying\", \"date\": \"2020-02-23\", \"location\": \"40.007965, -105.249142\"}";  
                         http.post(request, response, headers);  
                         printResponse(response);  
                     }
