@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/root/Desktop/speakup2/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/root/Desktop/SpeakUp---HackCU-2020-project/SpeakUpUpdated/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
                     "source": "/root/.gradle/caches/transforms-2/files-2.1/454541ed0d74e0d0babd214b189709ff/coordinatorlayout-1.0.0/res/values/values.xml",
@@ -42,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "/root/Desktop/speakup2/android/app/src/main/res/values/styles.xml",
+                    "source": "/root/Desktop/SpeakUp---HackCU-2020-project/SpeakUpUpdated/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

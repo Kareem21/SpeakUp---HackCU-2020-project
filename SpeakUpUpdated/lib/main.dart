@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
               bottom: TabBar(
                 tabs: [
                   Tab(icon: Text('Directory')),
-                  Tab(icon: Icon(Icons.directions_transit)), // replace with Map?
+                  Tab(icon: Text('Map')), // replace with Map?
                   Tab(icon: Text('Profile')),
                 ],
               ),

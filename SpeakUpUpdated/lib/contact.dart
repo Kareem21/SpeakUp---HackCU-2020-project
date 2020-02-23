@@ -1,6 +1,6 @@
 class Contact {
-  String name;
-  String dob;
-  String phone = '';
-  String email = '';
+  String name = "";
+  String type = "";
+  String who = "";
+  String where = "";
 }

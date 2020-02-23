@@ -1,4 +1,4 @@
-#Sun Feb 23 01:41:51 MST 2020
-base.0=/root/Desktop/speakup2/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+#Sun Feb 23 11:36:57 MST 2020
+base.0=/root/Desktop/SpeakUp---HackCU-2020-project/SpeakUpUpdated/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

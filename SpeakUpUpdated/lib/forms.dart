@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:http/http.dart' as http;
+import 'dart:convert';
 import 'dart:async';
 import 'contact.dart';
 
@@ -67,9 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       hintText: 'Name of perp',
                       labelText: 'Who',
                     ),
-                    inputFormatters: [
-                      WhitelistingTextInputFormatter.digitsOnly,
-                    ],
+
                   ),
                   new TextFormField(
                     decoration: const InputDecoration(
@@ -82,10 +82,37 @@ class _MyHomePageState extends State<MyHomePage> {
                       padding: const EdgeInsets.only(left: 40.0, top: 20.0),
                       child: new RaisedButton(
                         child: const Text('Submit'),
-                        onPressed: null,
+                        onPressed:   () async {
+                  const _serviceUrl = 'https://5a4dirdsw7.execute-api.us-east-2.amazonaws.com/api/incident/create';
+                  const _headers = {'Content-Type': 'application/json'};
+                  var response = await http.post(
+                  Uri.encodeFull(_serviceUrl), body: json.encode({
+                  "Name" : "Migel",
+                  "Type" : "Domestic abuse",
+                  "Where" : "denver",
+                  "Who" : "wife"
+                  }), headers: _headers);
+                  print(response.body);},
                       )),
                 ],
               ))),
     );
   }
 }
+
+
+
+    /*
+    * child: const Text('Submit'),
+                        onPressed: () async {
+                          const _serviceUrl = 'http://mockbin.org/echo';
+                          const _headers = {'Content-Type': 'application/json'};
+                          var response = await http.post(
+                              Uri.encodeFull(_serviceUrl), body: json.encode({
+                          "Name" : "kaareem",
+                          "Type" : "d abuse",
+                          "Where" : "location",
+                          "Who" : "rwkglfsg"
+                          }), headers: _headers);}
+    *
+    * */
