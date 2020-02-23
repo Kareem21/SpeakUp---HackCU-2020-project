@@ -15,3 +15,11 @@ main.dart: The main page (includes directory, map, profile tabs)
 * need to send a POST request from the form.dart to a mongoDB / other database. 
 * Get data back from the mongoDB database and store it in the "directory" tab in the Flutter app
 * Map and profile tabs are incomplete.
+
+## Set up
+
+get intellij and android studio installed/setup
+add 
+add flutter plugin ,dart will be included
+file open project -> speakUPupdated
+
