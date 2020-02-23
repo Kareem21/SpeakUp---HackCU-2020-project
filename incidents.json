@@ -1,0 +1,24 @@
+{
+    [
+        {
+            "type":"racism",
+            "when":"2018-04-30",
+            "where":[40.5853, 105.0844],
+            "what":"A prospective student's mother reported two prospective students for being Native American and wearing metal band merchandise",
+            "perp":["Nervous Parent"],
+            "flagged":false,
+            "victim":["Thomas Kanewakeron Gray", "Lloyd Skanahwati"],
+            "reported":true
+        },
+        {
+            "type":"racism",
+            "when":"2019-08-08",
+            "where":[40.5853, 105.0844],
+            "what":"four Colorado State University students pictured in an Instagram story wearing blackface",
+            "perp":["Leana Kaplan"],
+            "flagged":false.
+            "victim":[],
+            "reported":true
+        }
+    ]
+}
